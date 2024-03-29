@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.header {
+  margin: 37px 78px 38px 78px;
+  width: calc(100% - 156px);
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 90px;
+  z-index: 100;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.headDiv {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* .headDiv::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backdrop-filter: blur(40px);
+} */
+
+.background {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.logo {
+  width: 33px;
+  height: 41px;
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  transform: translateY(-50%);
+}
+
+.svg {
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  transform: translateY(-50%);
+}
+
+.headDiv nav {
+  position: absolute;
+  left: 27%;
+  height: 100%;
+}
+
+.headDiv ul {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  white-space: nowrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.headDiv li {
+  height: 100%;
+  padding: 0 38px;
+  transition: background-color 1ms ease-in-out, margin-left 1s ease-in-out;
+  position: relative;
+  margin: 0;
+  height: 100%;
+}
+
+.headDiv li:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  transition-delay: 0.1s;
+}
+
+.headDiv a {
+  color: #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-family: "Oxanium", cursive;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 19px;
+  line-height: 1.26316em;
+  text-decoration: none;
+  transition: color 0.2s ease-out;
+  cursor: pointer;
+}
+
+.twoContainer {
+  background-color: black;
+  height: 100px;
+}
+ 
